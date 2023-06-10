@@ -1,0 +1,35 @@
+{
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andray kybora",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "i18next": "^22.5.0",
+    "i18next-fs-backend": "^2.1.2",
+    "i18next-http-middleware": "^3.3.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.2.1",
+    "socket.io": "^4.6.1",
+    "yup": "^1.2.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@app": "./app",
+    "@utils": "./utils",
+    "@routes": "./routes",
+    "@middlewares": "./middlewares",
+    "@internationalization": "./internationalization",
+    "@locales": "./locales"
+  }
+}

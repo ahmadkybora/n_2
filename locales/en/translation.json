@@ -1,0 +1,13 @@
+{
+    "loggedIn": "you are logged in",
+    "register": "you are registred {{name}}",
+    "username": "username",
+    "password": "password",
+    "email": "email",
+    "firstName": "firstName",
+    "firstN": "Hello {{name}}!",
+    "min": "{{name}} must not be less than {{number}} letters",
+    "required": "{{name}} is required",
+    "notFound": "{{name}} is not found",
+    "found": "{{name}} is found"
+}
